@@ -13,6 +13,7 @@ import PriceingPage from './pages/PriceingPage';
 import PortfolioPage from './pages/PortfolioPage';
 import BlogPage from './pages/BlogPage';
 import BlogDetails from './pages/BlogDetails';
+import FeaturesPage from './pages/FeaturesPage';
 
 // import your route components too
 
@@ -29,6 +30,7 @@ function App() {
           <Route path="/policy-us" element={<PolicyPage />}></Route>
           <Route path="/price-plan" element={<PriceingPage />}></Route>
           <Route path="/my-portfolio" element={<PortfolioPage />}></Route>
+          <Route path="/features" element={<FeaturesPage />}></Route>
         </Routes>
       </BrowserRouter>,
     </>

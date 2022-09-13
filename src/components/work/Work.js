@@ -1,4 +1,5 @@
 import React from 'react'
+import OurWork from '../../reuseableComponent/OurWork';
 import './work.css';
 
 function Work() {
@@ -16,26 +17,10 @@ function Work() {
                         </div>
                         <div className="our_work_item_main">
                             <div className="our_work_item_main_flex">
-                                <div className="our_work_item">
-                                    <img src="images/our-work1.png" alt="Our work" />
-                                        <h4>Strategy</h4>
-                                        <p>Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam .</p>
-                                </div>
-                                <div className="our_work_item">
-                                    <img src="images/our-work2.png" alt="Our work" />
-                                        <h4>Wireframing</h4>
-                                        <p>Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam .</p>
-                                </div>
-                                <div className="our_work_item">
-                                    <img src="images/our-work3.png" alt="Our work" />
-                                        <h4>Design</h4>
-                                        <p>Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam .</p>
-                                </div>
-                                <div className="our_work_item">
-                                    <img src="images/our-work4.png" alt="Our work" />
-                                        <h4>Development</h4>
-                                        <p>Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam .</p>
-                                </div>
+                               <OurWork title = "Strategy" image = "images/our-work1.png" para="Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam ." />
+                               <OurWork title = "Wireframing" image = "images/our-work2.png" para="Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam ." />
+                               <OurWork title = "Design" image = "images/our-work3.png" para="Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam ." />
+                               <OurWork title = "Development" image = "images/our-work4.png" para="Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam ." />
                             </div>
                         </div>
                     </div>

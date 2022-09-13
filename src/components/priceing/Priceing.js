@@ -1,4 +1,5 @@
 import React from 'react';
+import PricingRc from '../../reuseableComponent/PricingRc';
 import './priceing.css';
 
 function Priceing() {
@@ -12,99 +13,9 @@ function Priceing() {
                             coding them.</p>
                     </div>
                     <div className="pricing_details">
-                        <div className="first_pricinf_list">
-                            <div className="pricing_heading">
-                                <h3>$299</h3>
-                                <span><a href="">Per Design</a></span>
-                            </div>
-                            <h3>Landing Page</h3>
-                            <p>When you’re ready to go beyond prototyping in Figma,</p>
-                            <div className="priceng_list_angel">
-                                <div className="angel"></div>
-                                <h4>All limited links</h4>
-                            </div>
-                            <div className="priceng_list_angel">
-                                <div className="angel"></div>
-                                <h4>Own analytics platform</h4>
-                            </div>
-                            <div className="priceng_list_angel">
-                                <div className="angel"></div>
-                                <h4>All limited links</h4>
-                            </div>
-                            <div className="priceng_list_angel">
-                                <div className="angel angel_two"></div>
-                                <h4>All limited links</h4>
-                            </div>
-                            <div className="priceng_list_angel">
-                                <div className="angel angel_two"></div>
-                                <h4>All limited links</h4>
-                            </div>
-                            <div className="pricing_ntn">
-                                <a href=""> Get started</a>
-                            </div>
-                        </div>
-                        <div className="first_pricinf_list">
-                            <div className="pricing_heading">
-                                <h3>$299</h3>
-                                <span><a href="">Per Design</a></span>
-                            </div>
-                            <h3>Landing Page</h3>
-                            <p>When you’re ready to go beyond prototyping in Figma,</p>
-                            <div className="priceng_list_angel">
-                                <div className="angel"></div>
-                                <h4>All limited links</h4>
-                            </div>
-                            <div className="priceng_list_angel">
-                                <div className="angel"></div>
-                                <h4>Own analytics platform</h4>
-                            </div>
-                            <div className="priceng_list_angel">
-                                <div className="angel"></div>
-                                <h4>All limited links</h4>
-                            </div>
-                            <div className="priceng_list_angel">
-                                <div className="angel angel_two"></div>
-                                <h4>All limited links</h4>
-                            </div>
-                            <div className="priceng_list_angel">
-                                <div className="angel angel_two"></div>
-                                <h4>All limited links</h4>
-                            </div>
-                            <div className="pricing_ntn">
-                                <a href=""> Get started</a>
-                            </div>
-                        </div>
-                        <div className="first_pricinf_list">
-                            <div className="pricing_heading">
-                                <h3>$299</h3>
-                                <span><a href="">Per Design</a></span>
-                            </div>
-                            <h3>Landing Page</h3>
-                            <p>When you’re ready to go beyond prototyping in Figma,</p>
-                            <div className="priceng_list_angel">
-                                <div className="angel"></div>
-                                <h4>All limited links</h4>
-                            </div>
-                            <div className="priceng_list_angel">
-                                <div className="angel"></div>
-                                <h4>Own analytics platform</h4>
-                            </div>
-                            <div className="priceng_list_angel">
-                                <div className="angel"></div>
-                                <h4>All limited links</h4>
-                            </div>
-                            <div className="priceng_list_angel">
-                                <div className="angel angel_two"></div>
-                                <h4>All limited links</h4>
-                            </div>
-                            <div className="priceng_list_angel">
-                                <div className="angel angel_two"></div>
-                                <h4>All limited links</h4>
-                            </div>
-                            <div className="pricing_ntn">
-                                <a href=""> Get started</a>
-                            </div>
-                        </div>
+                        <PricingRc dollar = "$299" title ="Per Design" link ="/price-plan" />
+                        <PricingRc dollar = "$299" title ="Per Design" link ="/price-plan" />
+                        <PricingRc dollar = "$299" title ="Per Design" link ="/price-plan" />
                     </div>
                 </div>
             </div>

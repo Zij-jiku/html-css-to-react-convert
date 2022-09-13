@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import NavbarRc from '../../reuseableComponent/NavbarRc';
 import './navbar.css';
 
 function Navbar() {
@@ -14,14 +15,13 @@ function Navbar() {
             </div>
             <div className="mav_item">
                 <ul>
-                    <li><Link to="/">Home</Link></li>
-                    <li><Link to="/about-us">About us</Link></li>
-                    <li><Link to="/">Features</Link></li>
-                    <li><Link to="/price-plan">Pricing</Link></li>
-                    <li><Link to="/policy-us">FAQ</Link></li>
-                    <li><Link to="/blog-page">Blog</Link></li>
-                    <li className="nav_btn"><Link to="/contact-us">Contact us</Link></li>
-
+                    <NavbarRc link ="/" navName ="Home" />
+                    <NavbarRc link ="/about-us" navName ="About Us" />
+                    <NavbarRc link ="/features" navName ="Features" />
+                    <NavbarRc link ="/price-plan" navName ="Pricing" />
+                    <NavbarRc link ="/policy-us" navName ="FAQ" />
+                    <NavbarRc link ="/blog-page" navName ="Blog" />
+                    <NavbarRc className ="nav_btn" link ="/contact-us" navName ="Contact us" /> 
                 </ul>
             </div>
             <div>

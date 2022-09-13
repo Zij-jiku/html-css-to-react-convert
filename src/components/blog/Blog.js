@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import BlogRc from '../../reuseableComponent/BlogRc';
 import './blog.css';
 
 function Blog() {
@@ -20,51 +21,10 @@ function Blog() {
             <div class="out_blog">
                 <h3>Our Blog</h3>
                 <div class="blog_item">
-                    <div class="blog_item_one">
-                        <img src="images/blog22.png" alt="" />
-                        <h4>27 Jan 2021</h4>
-                        <p>How one Webflow user grew his single person consultancy from $0-100K in 14 months</p>
-                        <h5>See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract</h5>
-                        <Link to="/blog-details">Read more <i class="fa-solid fa-arrow-right-long"></i></Link>
-                    </div>
-                    <div class="blog_item_one">
-                        <img src="images/blog33.png" alt="" />
-                        <h4>27 Jan 2021</h4>
-                        <p>How one Webflow user grew his single person consultancy from $0-100K in 14 months</p>
-                        <h5>See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract</h5>
-                        <Link to="/blog-details">Read more <i class="fa-solid fa-arrow-right-long"></i></Link>
-                    </div>
-                    <div class="blog_item_one">
-                        <img src="images/blog22.png" alt="" />
-                        <h4>27 Jan 2021</h4>
-                        <p>How one Webflow user grew his single person consultancy from $0-100K in 14 months</p>
-                        <h5>See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract</h5>
-                        <Link to="/blog-details">Read more <i class="fa-solid fa-arrow-right-long"></i></Link>
-                    </div>
-                </div>
-                <div class="blog_item divided">
-                    <div class="blog_item_one">
-                        <img src="images/blog33.png" alt="" />
-                        <h4>27 Jan 2021</h4>
-                        <p>How one Webflow user grew his single person consultancy from $0-100K in 14 months</p>
-                        <h5>See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract</h5>
-                        <Link to="/blog-details">Read more <i class="fa-solid fa-arrow-right-long"></i></Link>
-                    </div>
-                    <div class="blog_item_one">
-                        <img src="images/blog22.png" alt="" />
-                        <h4>27 Jan 2021</h4>
-                        <p>How one Webflow user grew his single person consultancy from $0-100K in 14 months</p>
-                        <h5>See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract</h5>
-                        <Link to="/blog-details">Read more <i class="fa-solid fa-arrow-right-long"></i></Link>
-                    </div>
-                    <div class="blog_item_one">
-                        <img src="images/blog33.png" alt="" />
-                        <h4>27 Jan 2021</h4>
-                        <p>How one Webflow user grew his single person consultancy from $0-100K in 14 months</p>
-                        <h5>See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract</h5>
-                        <Link to="/blog-details">Read more <i class="fa-solid fa-arrow-right-long"></i></Link>
-                    </div>
-                </div>
+                    <BlogRc img="images/blog22.png" heading ="20 Jan 2020" para ="How one Webflow user grew his single person consultancy from $0-100K in 14 months" heading_two="See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract" linkTo="/blog-details" />
+                    <BlogRc img="images/blog33.png" heading ="21 Jan 2021" para ="How one Webflow user grew his single person consultancy from $0-100K in 14 months" heading_two="See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract" linkTo="/blog-details" />
+                    <BlogRc img="images/blog22.png" heading ="22 Jan 2022" para ="How one Webflow user grew his single person consultancy from $0-100K in 14 months" heading_two="See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract" linkTo="/blog-details" />
+                </div> 
             </div>
         </div>
     </div>
